@@ -136,4 +136,4 @@ def main(text):
 
 if __name__ == '__main__':
     data = get_json()
-    main(input('Inséré un nombre écrit en toute lettre :'))
+    main(input('Insérez un nombre écrit en toutes lettres :'))
