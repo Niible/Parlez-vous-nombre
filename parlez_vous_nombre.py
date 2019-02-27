@@ -7,17 +7,11 @@ tttt = "sept cent quatre vingt dix neuf million cent soixante dix mille huit cen
 
 
 def get_json():
-    '''
-    Récupere le fichier Json avec les conversions 'lettres-nombres'
-    '''
     with open('dict-conv-chiffres.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
 
 def decoupe(nombre):
-    '''
-    Sépare chaque mot qu'il y ait un espace ou un 'tiret' pour les mettre dans une liste
-    '''
     words = []
     word = ""
     for i, lettre in enumerate(nombre):
@@ -32,10 +26,6 @@ def decoupe(nombre):
 
 
 def convert_words_nombre(words):
-    '''
-    Convertion des mots en chiffre ou nombre
-    Plus un algorithme permettant de ranger les nombres qui vont ensemble
-    '''
     nombre = []
     a = 0
     for word in words:
@@ -65,9 +55,6 @@ def cas_special(f, s):
 
 
 def separe(nombre):
-    '''
-    En fonction de convert_words_nombre et des séparation défini range les valeurs dans des tableaux
-    '''
     tab = []
     result = []
     j = 0
@@ -84,9 +71,6 @@ def separe(nombre):
 
 
 def convert_total(nombres):
-    '''
-    Algorithme donnant le nombre final !!
-    '''
     end = 0
     result = 0
     for tab in nombres:
@@ -115,9 +99,6 @@ def convert_total(nombres):
 
 
 def formate(nombre):
-    '''
-    format le nombre en str pour afficher les espaces ex: 1 000 000
-    '''
     str_nb = str(nombre)[::-1]
     nb = ""
     for i in range(len(str_nb)):
@@ -128,9 +109,6 @@ def formate(nombre):
 
 
 def romain(nombre):
-    '''
-    Convertion des chiffres romain en arabe
-    '''
     result = 0
     d = data['romain-arabe']
     for i in range(len(d)):
@@ -139,9 +117,6 @@ def romain(nombre):
 
 
 def check_lg(text):
-    '''
-    Check si le texte comporte des chiffres romain et renvoie 0 sinon 1 
-    '''
     if len(re.findall(r'^[M]*[D]*[C]*[L]*[X]*[V]*[I]*', text)[0]):
         return 0
     return 1
