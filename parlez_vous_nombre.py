@@ -37,6 +37,7 @@ def convert_words_nombre(words):
                 elif len(str(d[index]['arabe'])) > 2 and a == 0:
                     nombre.append('+')
                     a = len(nombre)
+    print(nombre)
     return nombre
 
 
@@ -57,7 +58,7 @@ def separe(nombre):
     for i in nombre:
         if i != '+':
             tab.append(i)
-        elif i == '+' and j != 1:
+        elif i == '+' and j != 0:
             result.append(tab)
             tab = []
             j = 0

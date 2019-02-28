@@ -18,11 +18,11 @@
 			"arabe": 3
 		},
 		{
-			"autochtone": "[Qq]uatre",
+			"autochtone": "[Qq]u[a]?tre",
 			"arabe": 4
 		},
 		{
-			"autochtone": "[Cc]inq\\s",
+			"autochtone": "[Cc]inq$",
 			"arabe": 5
 		},
 		{
@@ -30,7 +30,7 @@
 			"arabe": 6
 		},
 		{
-			"autochtone": "[Ss]ept\\s",
+			"autochtone": "[Ss]ept$",
 			"arabe": 7
 		},
 		{
@@ -106,7 +106,7 @@
 			"arabe": 100
 		},
 		{
-			"autochtone": "[Mm]ille[s]?",
+			"autochtone": "[Mm]il[s]?$|[Mm]il{2}e[s]?",
 			"arabe": 1000
 		},
 		{
