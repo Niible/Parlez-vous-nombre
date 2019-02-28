@@ -22,7 +22,7 @@
 			"arabe": 4
 		},
 		{
-			"autochtone": "[Cc]inq",
+			"autochtone": "[Cc]inq\\s",
 			"arabe": 5
 		},
 		{
@@ -30,7 +30,7 @@
 			"arabe": 6
 		},
 		{
-			"autochtone": "[Ss]ept",
+			"autochtone": "[Ss]ept\\s",
 			"arabe": 7
 		},
 		{
