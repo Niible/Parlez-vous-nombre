@@ -1,13 +1,9 @@
 import json
 import re
-text = "sept cent vingt et un"
-test = "cent vingt quatre mille huit cent deux"
-ttet = "trois mille milliard deux cent quatre vingt un million cinq cent quarante deux mille neuf cent quatre vingt dix neuf"
-tttt = "sept cent quatre vingt dix neuf million cent soixante dix mille huit cent douze"
 
 
 def get_json():
-    with open('dict-conv-chiffres.json', 'r', encoding='utf-8') as f:
+    with open('parlez_vous_nombre.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
 
