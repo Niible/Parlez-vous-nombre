@@ -2,6 +2,10 @@
 	"nom": "Dictionnaires",
 	"mot-arabe": [
 		{
+			"autochtone": "et",
+			"arabe": 0
+		},
+		{
 			"autochtone": "[Zz][ée]ro[s]?",
 			"arabe": 0
 		},
@@ -18,7 +22,7 @@
 			"arabe": 3
 		},
 		{
-			"autochtone": "[Qq]u[a]?tre",
+			"autochtone": "[Qq]uatre",
 			"arabe": 4
 		},
 		{
@@ -58,7 +62,7 @@
 			"arabe": 13
 		},
 		{
-			"autochtone": "[Qq]u[a]?torze",
+			"autochtone": "[Qq]uatorze",
 			"arabe": 14
 		},
 		{
@@ -162,6 +166,30 @@
 		{
 			"autochtone": "M",
 			"arabe": 1000
+		},
+		{
+			"autochtone": "IV",
+			"arabe": -2
+		},
+		{
+			"autochtone": "IX",
+			"arabe": -2
+		},
+		{
+			"autochtone": "XL",
+			"arabe": -20
+		},
+		{
+			"autochtone": "XC",
+			"arabe": -20
+		},
+		{
+			"autochtone": "CD",
+			"arabe": -200
+		},
+		{
+			"autochtone": "CM",
+			"arabe": -200
 		}
 	]
 }
